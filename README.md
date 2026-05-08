@@ -1,0 +1,127 @@
+# TradeNote
+
+> 📖 投资交易知识与量化实践手册 | A Comprehensive Handbook on Trading & Quantitative Finance
+
+---
+
+## 关于本书
+
+**TradeNote** 是一本精炼的投资交易知识手册，重点覆盖衍生品（美股期权、港股轮证、期货等）的深度策略分析、凯利公式的数学原理与实战应用，兼顾 Python 量化交易与 AI Agent 交易辅助。全书分为五卷共 16 章，预计成书约 135 页。
+
+本书面向以下读者群体：
+
+- 🎯 希望系统学习投资交易知识的初学者
+- 📈 想要深入理解衍生品（期权、轮证、期货）的交易者
+- 🐍 希望通过 Python 实现量化交易策略的开发者
+- 🤖 关注 AI Agent 在金融交易领域应用的技术人员
+
+---
+
+## 书籍结构
+
+| 卷 | 名称 | 章节 | 页数 | 内容概要 |
+|:---:|:---|:---:|:---:|:---|
+| 一 | 投资交易基础速览 | 第 1 章 | ~10 页 | 全市场概览、宏观/财务/技术分析、A股/港股/美股制度对比 |
+| 二 | **衍生品市场** ⭐ | 第 2~9 章 | ~60 页 | 期权理论与定价、买方/卖方策略、高级组合策略、波动率交易、港股轮证、期货 |
+| 三 | Python 量化交易 | 第 10~11 章 | ~18 页 | Python入门、数据获取、回测系统、选股择时、衍生品量化、实盘交易 |
+| 四 | AI Agent 应用 | 第 12~13 章 | ~18 页 | AI交易概览、AI选股择时、AI执行风控、策略进化、个人交易助手构建 |
+| 五 | 交易心态与凯利公式 ⭐ | 第 14~16 章 | ~26 页 | **凯利公式深度解析**、交易心理学、资金管理、交易系统构建 |
+
+> 📋 完整大纲详见 [TradeNote_Outline.md](./TradeNote_Outline.md)
+
+### 本书亮点
+
+- 🔥 **衍生品市场是核心**：8 章、约 60 页，占全书 44%
+- 🎯 **凯利公式独立成章**：约 12 页系统性拆解，从数学推导到衍生品实战再到 Python 实现
+- 💻 **理论与实践结合**：每部分都有 Python 代码示例和实战案例
+- 🌏 **跨市场视角**：同时覆盖 A 股、港股、美股三大市场
+
+---
+
+## 项目状态
+
+📝 **写作进行中** —— 当前已完成全书大纲设计，正文内容正在逐步撰写。
+
+---
+
+## 文件说明
+
+```
+TradeNote/
+├── README.md                 # 项目说明文档
+├── LICENSE                   # AGPL-3.0 许可证
+└── TradeNote_Outline.md      # 书籍完整大纲与目录
+```
+
+---
+
+## 贡献指南
+
+欢迎通过以下方式参与贡献：
+
+- 🔍 发现大纲中的遗漏或错误，提交 Issue 或 Pull Request
+- 💡 对某一章节有独到见解，欢迎分享你的经验与案例
+- 🐛 发现代码示例中的 bug，欢迎指正
+
+### 贡献流程
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/amazing-idea`)
+3. 提交更改 (`git commit -m '添加了某个章节的内容'`)
+4. 推送到分支 (`git push origin feature/amazing-idea`)
+5. 创建 Pull Request
+
+---
+
+## 许可证
+
+本项目采用 **GNU Affero General Public License v3.0 (AGPL-3.0)** 许可证。
+
+```
+TradeNote - 投资交易知识与量化实践手册
+Copyright (C) 2026  TradeNote Authors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
+
+### 许可证要点
+
+| 权利 | 说明 |
+|:---|:---|
+| ✅ 商业使用 | 允许用于商业目的 |
+| ✅ 分发 | 允许自由分发 |
+| ✅ 修改 | 允许修改源代码 |
+| ✅ 专利使用 | 明确授予专利权 |
+| ✅ 私人使用 | 允许私人使用 |
+
+| 限制 | 说明 |
+|:---|:---|
+| ⚠️ 传染性 | 修改后的衍生作品必须以相同许可证发布 |
+| ⚠️ 网络服务 | 通过网络提供服务的，必须开源修改后的代码（AGPL 特有条款） |
+| ⚠️ 无担保 | 不提供任何担保 |
+
+> 完整许可证文本请参阅 [LICENSE](./LICENSE) 文件。
+
+---
+
+## ⚠️ 免责声明
+
+**本书及本仓库中的所有内容仅供教育和学习参考，不构成任何形式的投资建议或推荐。**
+
+- 金融市场存在风险，过往表现不代表未来收益
+- 任何交易策略都可能导致本金的部分或全部损失
+- 读者在进行实际交易前，应充分了解相关风险，并根据自身财务状况和风险承受能力做出独立判断
+- 作者及贡献者对因使用本书内容而产生的任何直接或间接损失不承担任何责任
+
+**投资有风险，入市需谨慎。**
