@@ -1,8 +1,11 @@
 import pandas as pd
 import numpy as np
+import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
+os.makedirs('tmp', exist_ok=True)
 
 np.random.seed(42)
 dates = pd.date_range('2023-01-01', periods=200)
@@ -18,5 +21,5 @@ ax.set_xlabel('Date')
 ax.set_ylabel('Price')
 ax.legend()
 plt.tight_layout()
-plt.savefig('stock_ma20.png', dpi=100)
-print("Chart saved to stock_ma20.png")
+plt.savefig('tmp/stock_ma20.png', dpi=100)
+print("Chart saved to tmp/stock_ma20.png")

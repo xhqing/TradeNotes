@@ -879,10 +879,14 @@ data = yf.download("SPY", start="2023-01-01", end="2024-12-31")
 ```python
 df.dropna(inplace=True)
 df = df[df['volume'] > 0]
-df.to_parquet('clean_data.parquet')
+
+import os
+os.makedirs('tmp', exist_ok=True)
+
+df.to_parquet('tmp/clean_data.parquet')
 
 import sqlite3
-conn = sqlite3.connect('trading.db')
+conn = sqlite3.connect('tmp/trading.db')
 df.to_sql('daily_prices', conn, if_exists='replace')
 ```
 
