@@ -993,7 +993,8 @@ if pvalue < 0.05:
 
 ```python
 from hmmlearn.hmm import GaussianHMM
-model = GaussianHMM(n_components=3, covariance_type='full')
+model = GaussianHMM(n_components=3, covariance_type='full',
+                     n_iter=500, tol=1e-6, random_state=42)
 model.fit(returns.values.reshape(-1, 1))
 hidden_states = model.predict(returns.values.reshape(-1, 1))
 ```
