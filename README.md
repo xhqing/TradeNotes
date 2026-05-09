@@ -48,9 +48,35 @@
 
 ```
 TradeNote/
-├── README.md                 # 项目说明文档
-├── LICENSE                   # AGPL-3.0 许可证
-└── TradeNote_Outline.md      # 书籍完整大纲与目录
+├── README.md                     # 项目说明文档
+├── LICENSE                       # AGPL-3.0 许可证
+├── TradeNote.md                  # 全书正文（完整16章 + 附录）
+├── TradeNote_Outline.md          # 书籍完整大纲与目录
+└── code/                         # 可独立运行的 Python 脚本
+    ├── requirements.txt              依赖清单
+    ├── ch10_quant_basics/            第10章 量化交易基础与回测
+    │   ├── 01_numpy_basics.py            NumPy 计算夏普比率
+    │   ├── 02_pandas_basics.py           Pandas 数据处理与均线
+    │   ├── 03_matplotlib_basics.py       Matplotlib 可视化
+    │   ├── 04_data_fetch.py              AKShare/yfinance 数据获取
+    │   ├── 05_data_clean_store.py        数据清洗与存储
+    │   ├── 06_simple_backtest.py         简易回测引擎
+    │   └── 07_performance_metrics.py     绩效评估指标
+    ├── ch11_quant_strategies/        第11章 量化策略实战
+    │   ├── 01_pairs_trading.py           配对交易（协整检验）
+    │   └── 02_hmm_market_regime.py       HMM 市场状态识别
+    ├── ch12_ai_agent/                第12章 AI Agent 交易应用
+    │   └── 01_llm_financial_analysis.py  LLM 财务分析 Prompt
+    ├── ch13_ai_assistant/            第13章 构建个人 AI 交易助手
+    │   ├── 01_rag_knowledge_base.py      RAG 知识库搭建
+    │   └── 02_strategy_generation.py     策略自动生成
+    └── ch14_kelly_criterion/         第14章 凯利公式深度解析 ⭐
+        ├── 01_kelly_classic.py           经典/连续/分数凯利
+        ├── 02_kelly_multi_asset.py       多元凯利（含约束优化）
+        ├── 03_kelly_monte_carlo.py       蒙特卡洛模拟对比
+        ├── 04_kelly_bayesian.py          贝叶斯动态凯利
+        ├── 05_kelly_derivatives.py       衍生品凯利（尾部/厚尾/稳健修正）
+        └── 06_kelly_case_studies.py      5 个实战案例
 ```
 
 ---
