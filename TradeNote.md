@@ -31,7 +31,7 @@ Version 1.0
 
 ## 版权声明
 
-Copyright © 2026 TradeNote Authors. 本作品采用 GNU Affero General Public License v3.0 (AGPL-3.0) 许可证发布。你可以在许可证条款下自由复制、分发和修改本作品。详见书末许可证全文。
+Copyright © 2026 TradeNote Authors. 保留所有权利。未经版权持有人事先书面许可，不得以任何形式或任何方式复制、分发或传播本作品的任何部分。
 
 ---
 
@@ -1763,22 +1763,8 @@ print(f"半凯利: 股票{half_f[0]:.1%}, 债券{half_f[1]:.1%}, 期权策略{ha
 
 ---
 
-## 许可证
+## 版权声明
 
-```
-TradeNote - 投资交易知识与量化实践手册
-Copyright (C) 2026 TradeNote Authors
+Copyright © 2026 TradeNote Authors. 保留所有权利。
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
-```
+未经版权持有人事先书面许可，不得以任何形式或任何方式复制、分发或传播本作品的任何部分。
