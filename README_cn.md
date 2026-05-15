@@ -99,11 +99,11 @@ TradeNote/
 
 ---
 
-## 版权声明
+## 许可证
 
-Copyright © 2026 TradeNote Authors. 保留所有权利。
+本项目基于 [MIT 许可证](./LICENSE) 开源。
 
-未经版权持有人事先书面许可，不得以任何形式或任何方式复制、分发或传播本项目的任何部分。
+Copyright © 2026 TradeNote Authors.
 
 ---
 

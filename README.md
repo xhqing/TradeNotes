@@ -99,11 +99,11 @@ Contributions are welcome in the following ways:
 
 ---
 
-## Copyright
+## License
 
-Copyright © 2026 TradeNote Authors. All rights reserved.
+This project is licensed under the [MIT License](./LICENSE).
 
-No part of this project may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the copyright holder.
+Copyright © 2026 TradeNote Authors.
 
 ---
 
