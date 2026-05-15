@@ -2,6 +2,8 @@
 
 > 投资交易知识与量化实践手册
 
+Copyright © 2026 TradeNote Authors. 本项目基于 [MIT License](./LICENSE) 开源。
+
 ---
 
 ## 前言 （预计 1 页）

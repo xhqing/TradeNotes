@@ -1,3 +1,6 @@
+# Copyright (c) 2026 TradeNote Authors
+# Licensed under the MIT License. See LICENSE file for details.
+
 strategy_generation_prompt = """
 根据以下交易想法，生成完整的Python回测策略代码：
 - 策略逻辑：当20日均线金叉60日均线时买入，死叉时卖出

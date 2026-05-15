@@ -1,3 +1,6 @@
+# Copyright (c) 2026 TradeNote Authors
+# Licensed under the MIT License. See LICENSE file for details.
+
 financial_data_prompt = """
 分析以下公司财报数据，提取关键指标并评估：
 - 营收增速和毛利率变化趋势

@@ -1,3 +1,6 @@
+# Copyright (c) 2026 TradeNote Authors
+# Licensed under the MIT License. See LICENSE file for details.
+
 import pandas as pd
 import numpy as np
 
