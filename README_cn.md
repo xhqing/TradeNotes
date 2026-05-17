@@ -81,32 +81,6 @@ TradeNote/
 
 ---
 
-## 贡献指南
-
-欢迎通过以下方式参与贡献：
-
-- 🔍 发现大纲中的遗漏或错误，提交 Issue 或 Pull Request
-- 💡 对某一章节有独到见解，欢迎分享你的经验与案例
-- 🐛 发现代码示例中的 bug，欢迎指正
-
-### 贡献流程
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/amazing-idea`)
-3. 提交更改 (`git commit -m '添加了某个章节的内容'`)
-4. 推送到分支 (`git push origin feature/amazing-idea`)
-5. 创建 Pull Request
-
----
-
-## 许可证
-
-本项目基于 [MIT 许可证](./LICENSE) 开源。
-
-Copyright © 2026 TradeNote Authors.
-
----
-
 ## ⚠️ 免责声明
 
 **本笔记及本仓库中的所有内容仅供教育和学习参考，不构成任何形式的投资建议或推荐。**

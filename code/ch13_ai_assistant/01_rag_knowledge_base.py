@@ -1,6 +1,3 @@
-# Copyright (c) 2026 TradeNote Authors
-# Licensed under the MIT License. See LICENSE file for details.
-
 try:
     from langchain.document_loaders import DirectoryLoader
     from langchain.text_splitter import RecursiveCharacterTextSplitter

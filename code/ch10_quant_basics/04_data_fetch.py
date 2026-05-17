@@ -1,6 +1,3 @@
-# Copyright (c) 2026 TradeNote Authors
-# Licensed under the MIT License. See LICENSE file for details.
-
 import akshare as ak
 import yfinance as yf
 

@@ -81,32 +81,6 @@ TradeNote/
 
 ---
 
-## Contributing
-
-Contributions are welcome in the following ways:
-
-- 🔍 Report omissions or errors in the outline by submitting an Issue or Pull Request
-- 💡 Share your unique insights on a particular chapter — your experience and case studies are welcome
-- 🐛 Report bugs in code examples
-
-### Contribution Process
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/amazing-idea`)
-3. Commit your changes (`git commit -m 'Added content for a chapter'`)
-4. Push to the branch (`git push origin feature/amazing-idea`)
-5. Create a Pull Request
-
----
-
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
-
-Copyright © 2026 TradeNote Authors.
-
----
-
 ## ⚠️ Disclaimer
 
 **All content in this repository is for educational and reference purposes only and does not constitute any form of investment advice or recommendation.**
