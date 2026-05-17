@@ -1,14 +1,14 @@
 # TradeNote
 
-> 📖 A Comprehensive Handbook on Trading & Quantitative Finance | 投资交易知识与量化实践手册
+> A Comprehensive Handbook on Trading & Quantitative Finance | 投资交易知识与量化实践手册
 
 ---
 
-## About This Book
+## About This Project
 
-**TradeNote** is a concise handbook on trading and investment knowledge, with a focus on in-depth strategy analysis of derivatives (US stock options, Hong Kong warrants/CBBCs, futures, etc.), the mathematical principles and practical applications of the Kelly Criterion, while also covering Python quantitative trading and AI Agent trading assistance. The book is divided into five volumes with 16 chapters, approximately 135 pages in total.
+**TradeNote** is a concise handbook on trading and investment knowledge, with a focus on in-depth strategy analysis of derivatives (US stock options, Hong Kong warrants/CBBCs, futures, etc.), the mathematical principles and practical applications of the Kelly Criterion, while also covering Python quantitative trading and AI Agent trading assistance. These notes are divided into five volumes with 16 chapters, approximately 135 pages in total.
 
-This book is intended for the following readers:
+This project is intended for the following users:
 
 - 🎯 Beginners who want to systematically learn trading and investment knowledge
 - 📈 Traders who want to deeply understand derivatives (options, warrants/CBBCs, futures)
@@ -17,7 +17,7 @@ This book is intended for the following readers:
 
 ---
 
-## Book Structure
+## Content Structure
 
 | Volume | Name | Chapters | Pages | Overview |
 |:---:|:---|:---:|:---:|:---|
@@ -31,7 +31,7 @@ This book is intended for the following readers:
 
 ### Highlights
 
-- 🔥 **Derivatives markets are the core**: 8 chapters, ~60 pages, accounting for 44% of the book
+- 🔥 **Derivatives markets are the core**: 8 chapters, ~60 pages, accounting for 44% of the content
 - 🎯 **Kelly Criterion as a standalone chapter**: ~12 pages of systematic analysis, from mathematical derivation to derivatives practice and Python implementation
 - 💻 **Theory meets practice**: Each section includes Python code examples and real-world case studies
 - 🌏 **Cross-market perspective**: Covers A-share, Hong Kong, and US markets simultaneously
@@ -50,8 +50,8 @@ This book is intended for the following readers:
 TradeNote/
 ├── .gitignore                    # Git ignore rules (excludes tmp/ and other generated directories)
 ├── README.md                     # Project documentation
-├── TradeNote.md                  # Full book text (all 16 chapters + appendices)
-├── TradeNote_Outline.md          # Complete book outline and table of contents
+├── TradeNote.md                  # Full notes text (all 16 chapters + appendices)
+├── TradeNote_Outline.md          # Complete content outline and table of contents
 └── code/                         # Standalone Python scripts
     ├── requirements.txt              Dependency list
     ├── ch10_quant_basics/            Chapter 10: Quantitative Trading Basics & Backtesting
@@ -109,11 +109,11 @@ Copyright © 2026 TradeNote Authors.
 
 ## ⚠️ Disclaimer
 
-**All content in this book and repository is for educational and reference purposes only and does not constitute any form of investment advice or recommendation.**
+**All content in this repository is for educational and reference purposes only and does not constitute any form of investment advice or recommendation.**
 
 - Financial markets carry risks; past performance does not guarantee future returns
 - Any trading strategy may result in partial or total loss of principal
-- Readers should fully understand the relevant risks and make independent judgments based on their own financial situation and risk tolerance before engaging in actual trading
-- The authors and contributors shall not be held liable for any direct or indirect losses arising from the use of the content in this book
+- Users should fully understand the relevant risks and make independent judgments based on their own financial situation and risk tolerance before engaging in actual trading
+- The authors and contributors shall not be held liable for any direct or indirect losses arising from the use of the content in this repository
 
 **Investing involves risks; enter the market with caution.**

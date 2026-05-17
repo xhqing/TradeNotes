@@ -1,55 +1,12 @@
----
-
-<br/>
-<br/>
-<br/>
-
-<div align="center">
-
 # TradeNote
 
 ### 投资交易知识与量化实践手册
 
-<br/>
-
 **衍生品深度策略 · 凯利公式 · Python量化 · AI Agent**
 
-<br/>
-<br/>
-<br/>
-
-Version 1.0
-
-</div>
-
-<br/>
-<br/>
-
 ---
 
 <br/>
-
-## 版权声明
-
-Copyright © 2026 TradeNote Authors. 本项目基于 [MIT License](./LICENSE) 开源。
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
-
-## 前言
-
-本书是一本精炼的投资交易知识手册，重点覆盖衍生品（美股期权、港股轮证、期货等）的深度策略分析、凯利公式的数学原理与实战应用，兼顾 Python 量化交易与 AI Agent 交易辅助。
-
-全书分五卷共 16 章。第一卷快速建立全市场基础知识；第二卷深入衍生品市场，是全书的绝对核心；第三卷和第四卷分别介绍 Python 量化交易与 AI Agent 应用；第五卷聚焦凯利公式、交易心理与资金管理。
-
-本书假设读者具备基本的数学和金融常识，但不要求专业背景。每章力求简洁实用，配合代码与案例，帮助读者从理解走向实践。
-
----
 
 ## 目录
 
@@ -1757,24 +1714,12 @@ print(f"半凯利: 股票{half_f[0]:.1%}, 债券{half_f[1]:.1%}, 期权策略{ha
 
 ## 免责声明
 
-**本书所有内容仅供教育和学习参考，不构成任何形式的投资建议或推荐。**
+**本笔记所有内容仅供教育和学习参考，不构成任何形式的投资建议或推荐。**
 
 - 金融市场存在风险，过往表现不代表未来收益
 - 任何交易策略都可能导致本金的部分或全部损失
 - 衍生品交易涉及杠杆，可能放大亏损
-- 读者在进行实际交易前，应充分了解相关风险，并根据自身财务状况和风险承受能力做出独立判断
-- 作者及贡献者对因使用本书内容而产生的任何直接或间接损失不承担任何责任
+- 使用者在进行实际交易前，应充分了解相关风险，并根据自身财务状况和风险承受能力做出独立判断
+- 作者及贡献者对因使用本笔记内容而产生的任何直接或间接损失不承担任何责任
 
 **投资有风险，入市需谨慎。**
-
----
-
-## 版权声明
-
-Copyright © 2026 TradeNote Authors. 本项目基于 [MIT License](./LICENSE) 开源。
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
