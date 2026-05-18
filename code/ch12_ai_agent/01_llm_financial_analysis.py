@@ -1,3 +1,7 @@
+# Copyright (c) 2025 TradeNote Authors
+# Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+# See LICENSE.txt for the full license text.
+
 financial_data_prompt = """
 分析以下公司财报数据，提取关键指标并评估：
 - 营收增速和毛利率变化趋势

@@ -2,7 +2,7 @@
 
 > A Comprehensive Handbook on Trading & Quantitative Finance | 投资交易知识与量化实践手册
 
----
+***
 
 ## About This Project
 
@@ -15,34 +15,34 @@ This project is intended for the following users:
 - 🐍 Developers who want to implement quantitative trading strategies using Python
 - 🤖 Technologists interested in AI Agent applications in financial trading
 
----
+***
 
 ## Content Structure
 
-| Volume | Name | Chapters | Pages | Overview |
-|:---:|:---|:---:|:---:|:---|
-| I | Trading & Investment Fundamentals | Chapter 1 | ~10 pp | Global market overview, macro/fundamental/technical analysis, A-share/HK/US market comparison |
-| II | **Derivatives Markets** ⭐ | Chapters 2–9 | ~60 pp | Options theory & pricing, buyer/seller strategies, advanced combination strategies, volatility trading, HK warrants/CBBCs, futures |
-| III | Python Quantitative Trading | Chapters 10–11 | ~18 pp | Python basics, data acquisition, backtesting systems, stock selection & timing, derivatives quant, live trading |
-| IV | AI Agent Applications | Chapters 12–13 | ~18 pp | AI trading overview, AI stock selection & timing, AI execution & risk management, strategy evolution, building a personal trading assistant |
-| V | Trading Psychology & Kelly Criterion ⭐ | Chapters 14–16 | ~26 pp | **In-depth analysis of the Kelly Criterion**, trading psychology, capital management, trading system construction |
+| Volume | Name                                   |    Chapters    |  Pages  | Overview                                                                                                                                    |
+| :----: | :------------------------------------- | :------------: | :-----: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+|    I   | Trading & Investment Fundamentals      |    Chapter 1   | \~10 pp | Global market overview, macro/fundamental/technical analysis, A-share/HK/US market comparison                                               |
+|   II   | **Derivatives Markets** ⭐              |  Chapters 2–9  | \~60 pp | Options theory & pricing, buyer/seller strategies, advanced combination strategies, volatility trading, HK warrants/CBBCs, futures          |
+|   III  | Python Quantitative Trading            | Chapters 10–11 | \~18 pp | Python basics, data acquisition, backtesting systems, stock selection & timing, derivatives quant, live trading                             |
+|   IV   | AI Agent Applications                  | Chapters 12–13 | \~18 pp | AI trading overview, AI stock selection & timing, AI execution & risk management, strategy evolution, building a personal trading assistant |
+|    V   | Trading Psychology & Kelly Criterion ⭐ | Chapters 14–16 | \~26 pp | **In-depth analysis of the Kelly Criterion**, trading psychology, capital management, trading system construction                           |
 
-> 📋 For the complete outline, see [TradeNote_Outline.md](./TradeNote_Outline.md)
+> 📋 For the complete outline, see [TradeNote\_Outline.md](./TradeNote_Outline.md)
 
 ### Highlights
 
-- 🔥 **Derivatives markets are the core**: 8 chapters, ~60 pages, accounting for 44% of the content
-- 🎯 **Kelly Criterion as a standalone chapter**: ~12 pages of systematic analysis, from mathematical derivation to derivatives practice and Python implementation
+- 🔥 **Derivatives markets are the core**: 8 chapters, \~60 pages, accounting for 44% of the content
+- 🎯 **Kelly Criterion as a standalone chapter**: \~12 pages of systematic analysis, from mathematical derivation to derivatives practice and Python implementation
 - 💻 **Theory meets practice**: Each section includes Python code examples and real-world case studies
 - 🌏 **Cross-market perspective**: Covers A-share, Hong Kong, and US markets simultaneously
 
----
+***
 
 ## Project Status
 
 📝 **First draft complete** — All 16 chapters have been written, and all 18 Python scripts have been tested and verified.
 
----
+***
 
 ## File Structure
 
@@ -79,7 +79,7 @@ TradeNote/
         └── 06_kelly_case_studies.py      5 real-world case studies
 ```
 
----
+***
 
 ## ⚠️ Disclaimer
 
@@ -91,3 +91,24 @@ TradeNote/
 - The authors and contributors shall not be held liable for any direct or indirect losses arising from the use of the content in this repository
 
 **Investing involves risks; enter the market with caution.**
+
+***
+
+## 📄 Copyright & License
+
+Copyright (c) 2026 TradeNote Authors
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE.txt) (CC BY-NC-SA 4.0).
+
+**You are free to:**
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+**Under the following terms:**
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+- **NonCommercial** — You may not use the material for commercial purposes
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+
+See [LICENSE.txt](./LICENSE.txt) for the full license text.
