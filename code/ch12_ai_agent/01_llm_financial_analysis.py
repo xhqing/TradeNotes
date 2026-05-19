@@ -1,4 +1,4 @@
-# Copyright (c) 2025 TradeNote Authors
+# Copyright (c) 2026 TradeNote Authors
 # Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 # See LICENSE.txt for the full license text.
 
