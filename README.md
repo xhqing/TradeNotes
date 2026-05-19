@@ -6,12 +6,12 @@
 
 ## About This Project
 
-**TradeNote** is a concise handbook on trading and investment knowledge, with a focus on in-depth strategy analysis of derivatives (US stock options, Hong Kong warrants/CBBCs, futures, etc.), the mathematical principles and practical applications of the Kelly Criterion, while also covering Python quantitative trading and AI Agent trading assistance. These notes are divided into five volumes with 16 chapters, approximately 135 pages in total.
+**TradeNote** is a concise handbook on trading and investment knowledge, with a focus on in-depth strategy analysis of derivatives (US stock options, Hong Kong warrants/CBBCs, etc.), the mathematical principles and practical applications of the Kelly Criterion, while also covering Python quantitative trading and AI Agent trading assistance. These notes are divided into five volumes with 16 chapters, approximately 135 pages in total.
 
 This project is intended for the following users:
 
 - 🎯 Beginners who want to systematically learn trading and investment knowledge
-- 📈 Traders who want to deeply understand derivatives (options, warrants/CBBCs, futures)
+- 📈 Traders who want to deeply understand derivatives
 - 🐍 Developers who want to implement quantitative trading strategies using Python
 - 🤖 Technologists interested in AI Agent applications in financial trading
 
@@ -22,12 +22,10 @@ This project is intended for the following users:
 | Volume | Name                                   |    Chapters    |  Pages  | Overview                                                                                                                                    |
 | :----: | :------------------------------------- | :------------: | :-----: | :------------------------------------------------------------------------------------------------------------------------------------------ |
 |    I   | Trading & Investment Fundamentals      |    Chapter 1   | \~10 pp | Global market overview, macro/fundamental/technical analysis, A-share/HK/US market comparison                                               |
-|   II   | **Derivatives Markets** ⭐              |  Chapters 2–9  | \~60 pp | Options theory & pricing, buyer/seller strategies, advanced combination strategies, volatility trading, HK warrants/CBBCs, futures          |
+| II | **Derivatives Markets** ⭐ | Chapters 2–9 | \~60 pp | Options theory & pricing, buyer/seller strategies, advanced combination strategies, volatility trading, HK warrants/CBBCs |
 |   III  | Python Quantitative Trading            | Chapters 10–11 | \~18 pp | Python basics, data acquisition, backtesting systems, stock selection & timing, derivatives quant, live trading                             |
 |   IV   | AI Agent Applications                  | Chapters 12–13 | \~18 pp | AI trading overview, AI stock selection & timing, AI execution & risk management, strategy evolution, building a personal trading assistant |
 |    V   | Trading Psychology & Kelly Criterion ⭐ | Chapters 14–16 | \~26 pp | **In-depth analysis of the Kelly Criterion**, trading psychology, capital management, trading system construction                           |
-
-> 📋 For the complete outline, see [TradeNote\_Outline.md](./TradeNote_Outline.md)
 
 ### Highlights
 
@@ -38,20 +36,13 @@ This project is intended for the following users:
 
 ***
 
-## Project Status
-
-📝 **First draft complete** — All 16 chapters have been written, and all 18 Python scripts have been tested and verified.
-
-***
-
 ## File Structure
 
 ```
 TradeNote/
-├── .gitignore                    # Git ignore rules (excludes tmp/ and other generated directories)
-├── README.md                     # Project documentation
-├── TradeNote.md                  # Full notes text (all 16 chapters + appendices)
-├── TradeNote_Outline.md          # Complete content outline and table of contents
+├── .gitignore # Git ignore rules
+├── README.md # Project documentation
+├── TradeNote.md # Full notes text (all 16 chapters + appendices)
 └── code/                         # Standalone Python scripts
     ├── requirements.txt              Dependency list
     ├── ch10_quant_basics/            Chapter 10: Quantitative Trading Basics & Backtesting
@@ -98,7 +89,7 @@ TradeNote/
 
 Copyright (c) 2026 TradeNote Authors
 
-This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE.txt) (CC BY-NC-SA 4.0).
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE) (CC BY-NC-SA 4.0).
 
 **You are free to:**
 
@@ -109,6 +100,6 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
 - **NonCommercial** — You may not use the material for commercial purposes
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
 
-See [LICENSE.txt](./LICENSE.txt) for the full license text.
+See [LICENSE](./LICENSE) for the full license text.
