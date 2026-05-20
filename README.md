@@ -89,7 +89,20 @@ TradeNote/
 
 Copyright (c) 2026 TradeNote Authors
 
-This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE) (CC BY-NC-SA 4.0).
+This project uses a dual-license model:
+
+| Scope | License | License File |
+| :--- | :--- | :--- |
+| Code (all files under `code/`) | [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) (AGPL-3.0) | [LICENSE-AGPL](./LICENSE-AGPL) |
+| Documentation (all other content, including `TradeNote.md`) | [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0) | [LICENSE-CC-BY-NC-SA](./LICENSE-CC-BY-NC-SA) |
+
+### Code — AGPL-3.0
+
+- You may use, modify, and distribute the code under the terms of AGPL-3.0
+- **Copyleft**: any modified version must also be licensed under AGPL-3.0
+- **Network use is distribution**: if you run a modified version on a server and others interact with it, you must make the source code available
+
+### Documentation — CC BY-NC-SA 4.0
 
 **You are free to:**
 
@@ -101,5 +114,3 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
 - **NonCommercial** — You may not use the material for commercial purposes
 - **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
-
-See [LICENSE](./LICENSE) for the full license text.

@@ -89,7 +89,20 @@ TradeNote/
 
 版权所有 (c) 2026 TradeNote 作者
 
-本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](LICENSE)（CC BY-NC-SA 4.0）进行许可。
+本项目采用双许可证模式：
+
+| 适用范围 | 许可证 | 许可证文件 |
+| :--- | :--- | :--- |
+| 代码（`code/` 目录下的所有文件） | [GNU Affero 通用公共许可证 v3.0](https://www.gnu.org/licenses/agpl-3.0.html)（AGPL-3.0） | [LICENSE-AGPL](./LICENSE-AGPL) |
+| 文档（其他所有内容，包括 `TradeNote.md`） | [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（CC BY-NC-SA 4.0） | [LICENSE-CC-BY-NC-SA](./LICENSE-CC-BY-NC-SA) |
+
+### 代码 — AGPL-3.0
+
+- 您可以在 AGPL-3.0 条款下使用、修改和分发代码
+- **Copyleft（传染性）**：任何修改版本必须同样以 AGPL-3.0 许可
+- **网络交互即分发**：如果您在服务器上运行修改版本并与他人交互，您必须公开源代码
+
+### 文档 — CC BY-NC-SA 4.0
 
 **您可以自由地：**
 
@@ -101,5 +114,3 @@ TradeNote/
 - **署名** — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否对原始作品作了修改
 - **非商业性使用** — 您不得将本作品用于商业目的
 - **相同方式共享** — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议分发您贡献的作品
-
-完整许可协议文本请参见 [LICENSE](./LICENSE)。
