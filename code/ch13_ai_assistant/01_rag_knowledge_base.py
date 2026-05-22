@@ -26,7 +26,9 @@ except ImportError:
 import os
 
 if __name__ == '__main__' and HAS_LANGCHAIN:
-    notes_dir = './trading_notes/'
+    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+    notes_dir = os.path.join(OUTPUT_DIR, 'trading_notes')
     os.makedirs(notes_dir, exist_ok=True)
 
     sample_note = """
@@ -55,7 +57,7 @@ if __name__ == '__main__' and HAS_LANGCHAIN:
     api_key = os.environ.get('OPENAI_API_KEY')
     if api_key:
         embeddings = OpenAIEmbeddings()
-        vectorstore = Chroma.from_documents(chunks, embeddings, persist_directory='./db')
+        vectorstore = Chroma.from_documents(chunks, embeddings, persist_directory=os.path.join(OUTPUT_DIR, 'db'))
         print("向量数据库创建成功!")
 
         results = vectorstore.similarity_search("SPY期权交易", k=2)

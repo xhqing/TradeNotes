@@ -18,7 +18,9 @@ import numpy as np
 import sqlite3
 import os
 
-os.makedirs('output', exist_ok=True)
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 np.random.seed(42)
 dates = pd.date_range('2023-01-01', periods=200)
@@ -32,14 +34,14 @@ df.index.name = 'date'
 df.dropna(inplace=True)
 df = df[df['volume'] > 0]
 
-df.to_parquet('output/clean_data.parquet')
+df.to_parquet(os.path.join(OUTPUT_DIR, 'clean_data.parquet'))
 print("Parquet saved.")
 
-conn = sqlite3.connect('output/trading.db')
+conn = sqlite3.connect(os.path.join(OUTPUT_DIR, 'trading.db'))
 df.to_sql('daily_prices', conn, if_exists='replace')
 print("SQLite saved.")
 
-df_loaded = pd.read_parquet('output/clean_data.parquet')
+df_loaded = pd.read_parquet(os.path.join(OUTPUT_DIR, 'clean_data.parquet'))
 print(f"Loaded from Parquet: {len(df_loaded)} rows")
 
 df_sql = pd.read_sql('SELECT * FROM daily_prices LIMIT 5', conn)
