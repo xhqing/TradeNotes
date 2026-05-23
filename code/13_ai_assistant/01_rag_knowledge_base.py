@@ -1,4 +1,4 @@
-# Copyright (c) 2026 TradeNote Authors
+# Copyright (c) 2026 TradeNotes Authors
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published
@@ -27,7 +27,7 @@ import os
 
 if __name__ == '__main__' and HAS_LANGCHAIN:
     PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'code', 'output')
     notes_dir = os.path.join(OUTPUT_DIR, 'trading_notes')
     os.makedirs(notes_dir, exist_ok=True)
 

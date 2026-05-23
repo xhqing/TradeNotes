@@ -1,4 +1,4 @@
-# Copyright (c) 2026 TradeNote Authors
+# Copyright (c) 2026 TradeNotes Authors
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published
@@ -21,7 +21,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'code', 'output')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 np.random.seed(42)

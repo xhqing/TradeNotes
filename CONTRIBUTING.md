@@ -1,6 +1,6 @@
-# Contributing to TradeNote
+# Contributing to TradeNotes
 
-Thank you for your interest in contributing to TradeNote! This document outlines the guidelines and legal terms that govern contributions to this project.
+Thank you for your interest in contributing to TradeNotes! This document outlines the guidelines and legal terms that govern contributions to this project.
 
 ***
 

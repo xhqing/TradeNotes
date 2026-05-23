@@ -1,4 +1,4 @@
-# TradeNote
+# TradeNotes
 
 > 📝 Personal Trading & Quant Notes | 个人投资交易学习笔记
 
@@ -6,7 +6,7 @@
 
 ## About This Project
 
-**TradeNote** is a personal collection of trading and investment notes, with a focus on in-depth strategy analysis of derivatives (US stock options, Hong Kong warrants/CBBCs, etc.), the mathematical principles and practical applications of the Kelly Criterion, while also covering Python quantitative trading and AI Agent trading assistance. These notes cover 16 topics, approximately 135 pages in total.
+**TradeNotes** is a personal collection of trading and investment notes, with a focus on in-depth strategy analysis of derivatives (US stock options, Hong Kong warrants/CBBCs, etc.), the mathematical principles and practical applications of the Kelly Criterion, while also covering Python quantitative trading and AI Agent trading assistance. These notes cover 16 topics, approximately 135 pages in total.
 
 This project is intended for the following users:
 
@@ -39,7 +39,7 @@ This project is intended for the following users:
 ## File Structure
 
 ```
-TradeNote/
+TradeNotes/
 ├── .gitignore # Git ignore rules
 ├── README.md # Project documentation
 ├── docs/                         # Notes split by topic
@@ -93,7 +93,7 @@ TradeNote/
 
 ## 📄 Copyright & License
 
-Copyright (c) 2026 TradeNote Authors
+Copyright (c) 2026 TradeNotes Authors
 
 This project uses a dual-license model:
 

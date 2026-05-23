@@ -1,4 +1,4 @@
-# TradeNote
+# TradeNotes
 
 > 📝 个人投资交易学习笔记 | Personal Trading & Quant Notes
 
@@ -6,7 +6,7 @@
 
 ## 关于本笔记
 
-**TradeNote** 是一份个人投资交易学习笔记，重点记录衍生品（美股期权、港股轮证等）的策略分析、凯利公式的数学原理与实战应用，同时涵盖 Python 量化交易与 AI Agent 交易辅助。笔记共 16 个主题，约 135 页。
+**TradeNotes** 是一份个人投资交易学习笔记，重点记录衍生品（美股期权、港股轮证等）的策略分析、凯利公式的数学原理与实战应用，同时涵盖 Python 量化交易与 AI Agent 交易辅助。笔记共 16 个主题，约 135 页。
 
 本笔记面向以下读者：
 
@@ -39,7 +39,7 @@
 ## 文件说明
 
 ```
-TradeNote/
+TradeNotes/
 ├── .gitignore                    # Git 忽略规则
 ├── README.md                     # 项目说明
 ├── docs/                         # 按主题拆分的笔记文档
@@ -93,7 +93,7 @@ TradeNote/
 
 ## 📄 版权与许可证
 
-版权所有 (c) 2026 TradeNote 作者
+版权所有 (c) 2026 TradeNotes 作者
 
 本项目采用双许可证模式：
 
