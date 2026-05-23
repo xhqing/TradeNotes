@@ -8,7 +8,7 @@ Thank you for your interest in contributing to TradeNote! This document outlines
 
 We welcome contributions in the following forms:
 
-- **Content contributions**: Corrections, additions, or improvements to the Markdown documentation (e.g., `TradeNote.md` and other `.md` files)
+- **Content contributions**: Corrections, additions, or improvements to the Markdown documentation (e.g., `docs/` and other `.md` files)
 - **Code contributions**: Bug fixes, new scripts, or improvements to the Python code under `code/`
 - **Issue reports**: Filing well-documented issues for errors, inaccuracies, or suggestions
 - **Pull requests**: Submitting changes via pull requests for review and merging
@@ -35,7 +35,7 @@ All code contributions (i.e., any files under the `code/` directory) shall be li
 
 **All Markdown (`.md`) file contributions are subject to the following terms:**
 
-By submitting any content to the Markdown files in this repository — including but not limited to `TradeNote.md`, `README.md`, and any other present or future `.md` files — you, the contributor, hereby agree to dedicate your contributions to the **public domain** under the [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+By submitting any content to the Markdown files in this repository — including but not limited to files in `docs/`, `README.md`, and any other present or future `.md` files — you, the contributor, hereby agree to dedicate your contributions to the **public domain** under the [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 Specifically, you:
 

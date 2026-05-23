@@ -8,7 +8,7 @@
 
 我们欢迎以下形式的贡献：
 
-- **内容贡献**：对 Markdown 文档的勘误、补充或改进（如 `TradeNote.md` 及其他 `.md` 文件）
+- **内容贡献**：对 Markdown 文档的勘误、补充或改进（如 `docs/` 目录及其他 `.md` 文件）
 - **代码贡献**：对 `code/` 目录下 Python 代码的 Bug 修复、新脚本或改进
 - **问题报告**：提交记录详尽的问题，包括错误、不准确之处或建议
 - **Pull 请求**：通过 Pull Request 提交变更以供审核与合并
@@ -35,7 +35,7 @@
 
 **所有 Markdown（`.md`）文件的贡献均受以下条款约束：**
 
-向本仓库的 Markdown 文件提交任何内容——包括但不限于 `TradeNote.md`、`README.md` 及任何现有或未来的 `.md` 文件——即表示您，作为贡献者，同意将您的贡献按照 [Creative Commons CC0 1.0 Universal 公共领域贡献声明](https://creativecommons.org/publicdomain/zero/1.0/) 献入**公共领域**。
+向本仓库的 Markdown 文件提交任何内容——包括但不限于 `docs/` 目录下的文件、`README.md` 及任何现有或未来的 `.md` 文件——即表示您，作为贡献者，同意将您的贡献按照 [Creative Commons CC0 1.0 Universal 公共领域贡献声明](https://creativecommons.org/publicdomain/zero/1.0/) 献入**公共领域**。
 
 具体而言，您：
 

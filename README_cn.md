@@ -1,14 +1,14 @@
 # TradeNote
 
-> 📖 投资交易知识与量化实践手册 | A Comprehensive Handbook on Trading & Quantitative Finance
+> 📝 个人投资交易学习笔记 | Personal Trading & Quant Notes
 
 ***
 
-## 关于本项目
+## 关于本笔记
 
-**TradeNote** 是一份精炼的投资交易知识手册，重点覆盖衍生品（美股期权、港股轮证等）的深度策略分析、凯利公式的数学原理与实战应用，兼顾 Python 量化交易与 AI Agent 交易辅助。全笔记分为五卷共 16 章，预计约 135 页。
+**TradeNote** 是一份个人投资交易学习笔记，重点记录衍生品（美股期权、港股轮证等）的策略分析、凯利公式的数学原理与实战应用，同时涵盖 Python 量化交易与 AI Agent 交易辅助。笔记共 16 个主题，约 135 页。
 
-本笔记面向以下使用者群体：
+本笔记面向以下读者：
 
 - 🎯 希望系统学习投资交易知识的初学者
 - 📈 想要深入理解衍生品的交易者
@@ -19,18 +19,18 @@
 
 ## 内容结构
 
-|  卷  | 名称          |     章节     |   页数   | 内容概要                               |
-| :-: | :---------- | :--------: | :----: | :--------------------------------- |
-|  一  | 投资交易基础速览    |    第 1 章   | \~10 页 | 全市场概览、宏观/财务/技术分析、A股/港股/美股制度对比      |
-|  二  | **衍生品市场** ⭐ |  第 2\~9 章  | \~60 页 | 期权理论与定价、买方/卖方策略、高级组合策略、波动率交易、港股轮证  |
-|  三  | Python 量化交易 | 第 10\~11 章 | \~18 页 | Python入门、数据获取、回测系统、选股择时、衍生品量化、实盘交易 |
-|  四  | AI Agent 应用 | 第 12\~13 章 | \~18 页 | AI交易概览、AI选股择时、AI执行风控、策略进化、个人交易助手构建 |
-|  五  | 交易心态与凯利公式 ⭐ | 第 14\~16 章 | \~26 页 | **凯利公式深度解析**、交易心理学、资金管理、交易系统构建     |
+| 主题 | 内容概要 |
+| :--- | :--- |
+| 金融市场与交易基础 | 全市场概览、宏观/财务/技术分析、A股/港股/美股制度对比 |
+| **衍生品市场** ⭐ | 期权理论与定价、买方/卖方策略、高级组合策略、波动率交易、港股轮证 |
+| Python 量化交易 | Python入门、数据获取、回测系统、选股择时、衍生品量化、实盘交易 |
+| AI Agent 应用 | AI交易概览、AI选股择时、AI执行风控、策略进化、个人交易助手构建 |
+| 交易心态与凯利公式 ⭐ | **凯利公式深度解析**、交易心理学、资金管理、交易系统构建 |
 
 ### 亮点
 
-- 🔥 **衍生品市场是核心**：8 章、约 60 页，占总内容 44%
-- 🎯 **凯利公式独立成章**：约 12 页系统性拆解，从数学推导到衍生品实战再到 Python 实现
+- 🔥 **衍生品市场是核心**：8 个主题、约 60 页，占总内容 44%
+- 🎯 **凯利公式专题**：约 12 页系统性拆解，从数学推导到衍生品实战再到 Python 实现
 - 💻 **理论与实践结合**：每部分都有 Python 代码示例和实战案例
 - 🌏 **跨市场视角**：同时覆盖 A 股、港股、美股三大市场
 
@@ -41,11 +41,17 @@
 ```
 TradeNote/
 ├── .gitignore                    # Git 忽略规则
-├── README.md                     # 项目说明文档
-├── TradeNote.md                  # 全笔记正文（完整16章 + 附录）
+├── README.md                     # 项目说明
+├── docs/                         # 按主题拆分的笔记文档
+│   ├── 01_金融市场与交易基础.md
+│   ├── 02_衍生品基础概念.md
+│   ├── ...
+│   ├── 18_凯利公式速查与Python量化库速查.md
+│   ├── 免责声明.md
+│   └── 版权与许可证.md
 └── code/                         # 可独立运行的 Python 脚本
     ├── requirements.txt              依赖清单
-    ├── ch10_quant_basics/            第10章 量化交易基础与回测
+    ├── 10_quant_basics/              量化交易基础与回测
     │   ├── 01_numpy_basics.py            NumPy 计算夏普比率
     │   ├── 02_pandas_basics.py           Pandas 数据处理与均线
     │   ├── 03_matplotlib_basics.py       Matplotlib 可视化
@@ -53,15 +59,15 @@ TradeNote/
     │   ├── 05_data_clean_store.py        数据清洗与存储
     │   ├── 06_simple_backtest.py         简易回测引擎
     │   └── 07_performance_metrics.py     绩效评估指标
-    ├── ch11_quant_strategies/        第11章 量化策略实战
+    ├── 11_quant_strategies/            量化策略实战
     │   ├── 01_pairs_trading.py           配对交易（协整检验）
     │   └── 02_hmm_market_regime.py       HMM 市场状态识别
-    ├── ch12_ai_agent/                第12章 AI Agent 交易应用
+    ├── 12_ai_agent/                    AI Agent 交易应用
     │   └── 01_llm_financial_analysis.py  LLM 财务分析 Prompt
-    ├── ch13_ai_assistant/            第13章 构建个人 AI 交易助手
+    ├── 13_ai_assistant/                构建个人 AI 交易助手
     │   ├── 01_rag_knowledge_base.py      RAG 知识库搭建
     │   └── 02_strategy_generation.py     策略自动生成
-    └── ch14_kelly_criterion/         第14章 凯利公式深度解析 ⭐
+    └── 14_kelly_criterion/             凯利公式深度解析 ⭐
         ├── 01_kelly_classic.py           经典/连续/分数凯利
         ├── 02_kelly_multi_asset.py       多元凯利（含约束优化）
         ├── 03_kelly_monte_carlo.py       蒙特卡洛模拟对比
@@ -94,7 +100,7 @@ TradeNote/
 | 适用范围 | 许可证 | 许可证文件 |
 | :--- | :--- | :--- |
 | 代码（`code/` 目录下的所有文件） | [GNU Affero 通用公共许可证 v3.0](https://www.gnu.org/licenses/agpl-3.0.html)（AGPL-3.0） | [LICENSE-AGPL](./LICENSE-AGPL) |
-| 文档（其他所有内容，包括 `TradeNote.md`） | [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（CC BY-NC-SA 4.0） | [LICENSE-CC-BY-NC-SA](./LICENSE-CC-BY-NC-SA) |
+| 文档（其他所有内容，包括 `docs/`） | [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（CC BY-NC-SA 4.0） | [LICENSE-CC-BY-NC-SA](./LICENSE-CC-BY-NC-SA) |
 
 ### 代码 — AGPL-3.0
 
