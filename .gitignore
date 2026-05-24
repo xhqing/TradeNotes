@@ -1,1 +1,5 @@
 .trae/
+.DS_Store
+code/output/
+__pycache__/
+*.pyc
