@@ -3,3 +3,4 @@
 code/output/
 __pycache__/
 *.pyc
+docs/.obsidian/workspace.json
