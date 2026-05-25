@@ -25,28 +25,23 @@ We welcome contributions in the following forms:
 
 ## 2. License Agreement for Contributions
 
-This project uses a **dual-license model**. By submitting a contribution, you agree to the following terms based on the type of content you contribute:
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (CC BY-NC-SA 4.0). By submitting a contribution, you agree to the following terms:
 
-### 2.1 Code Contributions — AGPL-3.0
+### 2.1 All Contributions — CC BY-NC-SA 4.0
 
-All code contributions (i.e., any files under the `code/` directory) shall be licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) (AGPL-3.0). By submitting code, you confirm that you have the right to license it under AGPL-3.0 and agree to do so.
+All contributions to this repository — including but not limited to Markdown files in `docs/`, Python code under `code/`, `README.md`, and any other present or future files — shall be licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0).
 
-### 2.2 Markdown / Documentation Contributions — CC0 1.0 Universal
+By submitting any content, you:
 
-**All Markdown (`.md`) file contributions are subject to the following terms:**
+- **Grant** anyone the right to copy, distribute, and adapt your contributions for non-commercial purposes, provided that appropriate credit is given and derivative works are distributed under the same license;
+- **Confirm** that you have the right to license the content under CC BY-NC-SA 4.0 and agree to do so;
+- **Agree** that your contributions will be subject to the same license as the existing content in this repository.
 
-By submitting any content to the Markdown files in this repository — including but not limited to files in `docs/`, `README.md`, and any other present or future `.md` files — you, the contributor, hereby agree to dedicate your contributions to the **public domain** under the [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+### 2.1.1 Commercial License Grant to Project Maintainers
 
-Specifically, you:
+In addition, you agree to grant the project maintainers an additional, worldwide, royalty-free, non-exclusive, irrevocable license to use your contributed Markdown content for commercial purposes, including the right to sublicense such commercial usage to third parties. This commercial license grant and sublicensing right apply solely to the project maintainers and do not affect the rights of other users under CC BY-NC-SA 4.0.
 
-- **Waive** all copyright and related rights in your contributions to the fullest extent permitted by applicable law;
-- **Relinquish** all claims to ownership, attribution, and control over the contributed Markdown content;
-- **Agree** that your contributions may be freely copied, modified, distributed, and performed by anyone for any purpose — including commercial purposes — without any restriction, attribution requirement, or further permission;
-- **Acknowledge** that, to the extent waiver of copyright is not legally effective in your jurisdiction, you grant a worldwide, royalty-free, non-exclusive, irrevocable, and unconditional license to use, reproduce, modify, distribute, and create derivative works from your contributions for any purpose, without any attribution or compensation obligation.
-
-> **Rationale**: The Markdown content in this project is intended as an open knowledge resource. By dedicating contributed content to the public domain via CC0, we ensure that the knowledge contained herein can be freely shared, adapted, and built upon by anyone, without legal encumbrance. This aligns with the project's mission to make trading and quantitative finance knowledge universally accessible.
-
-> **Note**: The existing Markdown content in this repository was originally published under CC BY-NC-SA 4.0. New contributions to Markdown files, however, are accepted under CC0 as described above. By contributing, you agree that your additions will be dedicated to the public domain under CC0.
+> **Rationale**: The content in this project is licensed under CC BY-NC-SA 4.0, ensuring that knowledge can be freely shared and disseminated while protecting the content from unauthorized commercial use by others. The project maintainers retain commercial usage rights to support the continued development and quality improvement of the project.
 
 ***
 
@@ -54,7 +49,7 @@ Specifically, you:
 
 By submitting a contribution to this repository, you represent and warrant that:
 
-1. **Originality**: Your contribution is your original work, or you have sufficient rights to submit it under the applicable license (AGPL-3.0 for code, CC0 for Markdown content)
+1. **Originality**: Your contribution is your original work, or you have sufficient rights to submit it under the CC BY-NC-SA 4.0 license
 2. **No infringement**: Your contribution does not infringe upon the intellectual property rights, privacy rights, or any other rights of any third party
 3. **No confidential information**: Your contribution does not contain any confidential or proprietary information belonging to any third party
 4. **Authority**: You have the legal capacity and authority to grant the rights described in this document
@@ -62,11 +57,16 @@ By submitting a contribution to this repository, you represent and warrant that:
 
 ***
 
-## 4. Scope of CC0 Dedication
+## 4. Scope of CC BY-NC-SA License
 
-The CC0 dedication applies **exclusively** to the textual content contributed to Markdown (`.md`) files. It does **not** apply to:
+The CC BY-NC-SA 4.0 license applies to **all** content in this repository, including:
 
-- Source code files (`.py`, `.txt`, and other code files under `code/`), which remain under AGPL-3.0
+- Markdown documentation (`.md` files)
+- Python source code (`.py` files under `code/`)
+- Configuration and metadata files
+
+It does **not** apply to:
+
 - Any trademarks, logos, or brand identifiers associated with the project
 - Third-party content referenced or linked within the documentation, which may be subject to separate license terms
 
