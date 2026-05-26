@@ -1,7 +1,5 @@
 {
-  "cssTheme": "",
-  "enabledCssSnippets": [
-    "force-dark-mode"
-  ],
-  "theme": "obsidian"
+  "cssTheme": "Border",
+  "enabledCssSnippets": [],
+  "theme": "moonstone"
 }
