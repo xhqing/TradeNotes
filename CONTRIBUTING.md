@@ -39,7 +39,7 @@ By submitting any content, you:
 
 ### 2.1.1 Commercial License Grant to Project Maintainers
 
-In addition, you agree to grant the project maintainers an additional, worldwide, royalty-free, non-exclusive, irrevocable license to use your contributed Markdown content for commercial purposes, including the right to sublicense such commercial usage to third parties. This commercial license grant and sublicensing right apply solely to the project maintainers and do not affect the rights of other users under CC BY-NC-SA 4.0.
+In addition, you agree to grant the project maintainers an additional, worldwide, royalty-free, non-exclusive, irrevocable license to use your contributed content for commercial purposes. This commercial license grant applies solely to the project maintainers and does not affect the rights of other users under CC BY-NC-SA 4.0.
 
 > **Rationale**: The content in this project is licensed under CC BY-NC-SA 4.0, ensuring that knowledge can be freely shared and disseminated while protecting the content from unauthorized commercial use by others. The project maintainers retain commercial usage rights to support the continued development and quality improvement of the project.
 
