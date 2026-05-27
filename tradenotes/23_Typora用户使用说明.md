@@ -1,0 +1,3 @@
+# Typora用户使用说明
+
+直接用Typora打开tradenotes目录，即可在Typora中查看和编辑这些交易笔记。
