@@ -42,7 +42,7 @@
 TradeNotes/
 ├── .gitignore                    # Git 忽略规则
 ├── README.md                     # 项目说明
-├── docs/                         # 按主题拆分的笔记文档
+├── tradenotes/                   # 按主题拆分的笔记文档
 │   ├── 01_金融市场与交易基础.md
 │   ├── 02_衍生品基础概念.md
 │   ├── ...

@@ -8,7 +8,7 @@ Thank you for your interest in contributing to TradeNotes! This document outline
 
 We welcome contributions in the following forms:
 
-- **Content contributions**: Corrections, additions, or improvements to the Markdown documentation (e.g., `docs/` and other `.md` files)
+- **Content contributions**: Corrections, additions, or improvements to the Markdown documentation (e.g., `tradenotes/` and other `.md` files)
 - **Code contributions**: Bug fixes, new scripts, or improvements to the Python code under `code/`
 - **Issue reports**: Filing well-documented issues for errors, inaccuracies, or suggestions
 - **Pull requests**: Submitting changes via pull requests for review and merging
@@ -29,7 +29,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial-
 
 ### 2.1 All Contributions — CC BY-NC-SA 4.0
 
-All contributions to this repository — including but not limited to Markdown files in `docs/`, Python code under `code/`, `README.md`, and any other present or future files — shall be licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0).
+All contributions to this repository — including but not limited to Markdown files in `tradenotes/`, Python code under `code/`, `README.md`, and any other present or future files — shall be licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0).
 
 By submitting any content, you:
 

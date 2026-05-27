@@ -8,7 +8,7 @@
 
 我们欢迎以下形式的贡献：
 
-- **内容贡献**：对 Markdown 文档的勘误、补充或改进（如 `docs/` 目录及其他 `.md` 文件）
+- **内容贡献**：对 Markdown 文档的勘误、补充或改进（如 `tradenotes/` 目录及其他 `.md` 文件）
 - **代码贡献**：对 `code/` 目录下 Python 代码的 Bug 修复、新脚本或改进
 - **问题报告**：提交记录详尽的问题，包括错误、不准确之处或建议
 - **Pull 请求**：通过 Pull Request 提交变更以供审核与合并
@@ -29,7 +29,7 @@
 
 ### 2.1 所有贡献 — CC BY-NC-SA 4.0
 
-向本仓库提交的所有贡献——包括但不限于 `docs/` 目录下的 Markdown 文件、`code/` 目录下的 Python 代码、`README.md` 及任何现有或未来的文件——均采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（CC BY-NC-SA 4.0）进行许可。
+向本仓库提交的所有贡献——包括但不限于 `tradenotes/` 目录下的 Markdown 文件、`code/` 目录下的 Python 代码、`README.md` 及任何现有或未来的文件——均采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（CC BY-NC-SA 4.0）进行许可。
 
 提交任何内容即表示您：
 

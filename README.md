@@ -42,7 +42,7 @@ This project is intended for the following users:
 TradeNotes/
 ├── .gitignore # Git ignore rules
 ├── README.md # Project documentation
-├── docs/                         # Notes split by topic
+├── tradenotes/                   # Notes split by topic
 │   ├── 01_金融市场与交易基础.md
 │   ├── 02_衍生品基础概念.md
 │   ├── ...
