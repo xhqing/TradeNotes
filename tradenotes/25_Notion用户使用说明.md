@@ -1,4 +1,3 @@
-# Notion用户使用说明
 
 ## 导入`tradenotes-v1.1.1.zip`文件
 

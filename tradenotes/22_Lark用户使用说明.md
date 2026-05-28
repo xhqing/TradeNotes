@@ -1,4 +1,3 @@
-# Lark用户使用说明
 
 Lark用户可以将本项目的 Markdown 文档批量导入为Lark在线文档，方便在Lark中阅读和编辑。
 

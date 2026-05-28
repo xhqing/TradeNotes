@@ -1,3 +1,3 @@
-# Obsidian用户使用说明
+
 
 直接用Obsidian以tradenotes目录作为Vault打开，即可在Obsidian中查看和编辑这些交易笔记。
