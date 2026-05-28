@@ -5,7 +5,13 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/)，
 版本号遵循[语义化版本](https://semver.org/lang/zh-CN/)。
 
-## [1.1.0](https://github.com/user/TradeNotes/compare/v1.0.0...v1.1.0) - 2026-05-28
+## [1.1.1](https://github.com/xhqing/TradeNotes/compare/v1.1.0...v1.1.1) - 2026-05-28
+
+### 变更
+
+- 更新 Notion 用户使用说明，压缩包文件名改为 tradenotes-v1.1.1.zip
+
+## [1.1.0](https://github.com/xhqing/TradeNotes/compare/v1.0.0...v1.1.0) - 2026-05-28
 
 ### 新增
 
@@ -29,7 +35,7 @@
 - 更新 .gitignore，允许提交 Obsidian 配置文件
 - 修复 Obsidian 主题配置问题
 
-## [1.0.0](https://github.com/user/TradeNotes/releases/tag/v1.0.0) - 2026-05-24
+## [1.0.0](https://github.com/xhqing/TradeNotes/releases/tag/v1.0.0) - 2026-05-24
 
 ### 新增
 
