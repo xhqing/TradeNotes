@@ -5,6 +5,14 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/)，
 版本号遵循[语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [1.1.2](https://github.com/xhqing/TradeNotes/compare/v1.1.1...v1.1.2) - 2026-05-28
+
+### 变更
+
+- 移除交易笔记文档（01~18）的 H1 标题行
+- 移除用户使用说明文档（21~25）的 H1 标题行
+- 更新版本号压缩包文件名改为 tradenotes-v1.1.2.zip
+
 ## [1.1.1](https://github.com/xhqing/TradeNotes/compare/v1.1.0...v1.1.1) - 2026-05-28
 
 ### 变更
